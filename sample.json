@@ -1,0 +1,21 @@
+{
+  "Records": [{
+    "cf": {
+      "config": {
+        "distributionId": "EXAMPLE"
+      },
+      "request": {
+        "uri": "/hoge",
+        "method": "GET",
+        "clientIp": "2001:cdba::3257:9652",
+        "headers": {
+          "host": [{
+            "key": "Host",
+            "value": "selelab.com"
+          }],
+          "x-need-dynamic-render": true
+        }
+      }
+    }
+  }]
+}
